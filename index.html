@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Projeto Awax</title>
+  <script type="text/javascript">
+    window.onload = function() {
+      document.querySelector(".menu-opener").addEventListener("click", function(){
+          if (document.querySelector(".menu nav").style.display == 'flex') {
+              document.querySelector(".menu nav").style.display = 'none';
+          } else {
+              document.querySelector(".menu nav").style.display = 'flex';
+          }
+      });
+      window.addEventListener('resize', function(){
+          if (window.innerWidth > 800){
+              document.querySelector(".menu nav").style.display = 'flex';
+          } else {
+              document.querySelector(".menu nav").style.display = 'none';
+          }
+      });
+  };
+</script>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="logo">
+        <div class="logoimg"></div>
+      </div>
+      <div class="menu">
+        <img class="menu-opener" src="./assets/images/menu.png" alt="" srcset="">
+        <nav>
+          <ul>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Our Projects</a></li>
+            <li><a href="">Happy Clients</a></li>
+            <li><a href="">Price</a></li>
+            <li><a href="">Some Facts</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="banner">
+      <div class="sliders" style="margin-left: 0;">
+        <div class="slide">
+          <div class="slidearea">
+            <h1>Design is about</br><span>Communication</span></h1>
+            <h2>Call Us: +00 0 1234 5678</h2>
+            <a href="" class="button">Get in touch!</a>
+          </div>
+        </div>
+        <div class="slide">
+          ...2
+        </div>
+        <div class="slide">
+          ...3
+        </div>
+      </div>
+      <div class="sliders-pointers">
+        <div class="pointer active"></div>
+        <div class="pointer"></div>
+        <div class="pointer"></div>
+      </div>
+    </section>
+    <section class="default light">
+      <div class="section-title">About Us</div>
+      <div class="section-desc">Who we are?</div>
+      <div class="section-body">
+        <div class="section-aboutus">
+          <div class="section-aboutus--left">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac elementum arcu. Mauris quis diam non nulla dignissim hendrerit. Donec nec congue augue. Pellentesque arcu neque, elementum ac vehicula at, ultrices non ligula. Vivamus nec nunc velit. Integer condimentum lobortis ligula non sodales. Aenean a est erat. Nunc posuere eros semper risus rutrum laoreet. Vestibulum nec turpis eu arcu iaculis facilisis. Aenean efficitur sem et pulvinar hendrerit. Nulla vestibulum, urna non mollis tempus, enim quam tincidunt urna, nec semper magna mi commodo metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+            <br>
+            <a href="#" class="button">Learn More</a>
+          
+          
+          </div>
+          <div class="section-aboutus--right">
+            <img src="./media/foto9.jpg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="default dark">
+      <div class="section-title">Services</div>
+      <div class="section-desc">Services that we provide</div>
+      <div class="section-body">
+        <div class="section-services">
+          <div class="section-service">
+            <img src="./assets/images/medalha.png" alt="Icone  Medalha" srcset="">
+            <h4>High Quality Design</h4>
+            <p>Neque porro quisquam est</p>
+          </div>
+          <div class="section-service">
+            <img src="./assets/images/estrela.png" alt="Icone  Estrela" srcset="">
+            <h4>Modern Design</h4>
+            <p>Neque porro quisquam est porro quisquam est<</p>
+          </div>
+          <div class="section-service">
+            <img src="./assets/images/relogio.png" alt="Icone  Relógio" srcset="">
+            <h4>Regular Update</h4>
+            <p>Neque porro quisquam est</p>
+          </div>
+          <div class="section-service">
+            <img src="./assets/images/balao.png" alt="Icone  Balão" srcset="">
+            <h4>Fast and free support</h4>
+            <p>Neque porro quisquam est quisquam est</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="default light">
+      <div class="section-title">Our Projects</div>
+      <div class="section-desc">What we create</div>
+      <div class="section-body">
+        <div class="section-projects">
+          <div class="section-projects--filters">
+            <ul>
+              <li>All</li>
+              <li class="active">Photos</li>
+              <li>Branding</li>
+              <li>Adverts</li>
+              <li>Development</li>
+              <li>Misc</li>
+            </ul>
+          </div>
+          <div class="section-projects--photos">
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                    <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto1.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto2.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto3.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto4.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto5.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto6.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto7.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto1.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto2.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto3.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto4.jpg" alt="" srcset="">
+              </div>
+            </div>
+            <div class="section-projects--photo">
+              <div class="section-projects--photoarea">
+                <div class="section-projects--photoinfo">
+                  <h5>About</h5>
+                    <p>
+                      It is a long established fact that a reader
+                    </p>
+                </div>
+                <img src="./media/foto5.jpg" alt="" srcset="">
+              </div>
+            </div>
+          </div>
+          <a href="#" class="button">More Projects</a>
+        </div>
+      </div>
+    </section>
+    <section class="default dark bg-team">
+      <div class="section-team-area">
+        <div class="section-title">Our Team</div>
+        <div class="section-desc">Our Co-Workers</div>
+        <div class="section-body">
+          <div class="section-team">
+            <div class="sliders" style="margin-left: 0;">
+              <div class="slide">
+                <div class="slidearea">
+                  <img class="section-team--avatar" src="./media/mulher1.png" alt="" srcset="">
+                  <div class="section-team--name">Jane Doe</div>
+                  <div class="section-team--role">Master mind</div>
+                  <div class="section-team--social">
+                    <a href=""><img src="./assets/images/facebook.png" alt="" srcset=""></a>
+                    <a href=""><img src="./assets/images/googleplus.png" alt=""></a>
+                    <a href=""><img src="./assets/images/linkedin.png" alt=""></a>
+                    <a href=""><img src="./assets/images/pinterest.png" alt=""></a>
+                    <a href=""><img src="./assets/images/twitter.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slidearea">
+                  <img class="section-team--avatar" src="./media/homem1.png" alt="" srcset="">
+                  <div class="section-team--name">Mike Shiller</div>
+                  <div class="section-team--role">Creative head</div>
+                  <div class="section-team--social">
+                    <a href=""><img src="./assets/images/facebook.png" alt="" srcset=""></a>
+                    <a href=""><img src="./assets/images/googleplus.png" alt=""></a>
+                    <a href=""><img src="./assets/images/linkedin.png" alt=""></a>
+                    <a href=""><img src="./assets/images/pinterest.png" alt=""></a>
+                    <a href=""><img src="./assets/images/twitter.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slidearea">
+                  <img class="section-team--avatar" src="./media/mulher2.png" alt="" srcset="">
+                  <div class="section-team--name">Anna Johns</div>
+                  <div class="section-team--role">Technical lead</div>
+                  <div class="section-team--social">
+                    <a href=""><img src="./assets/images/facebook.png" alt="" srcset=""></a>
+                    <a href=""><img src="./assets/images/googleplus.png" alt=""></a>
+                    <a href=""><img src="./assets/images/linkedin.png" alt=""></a>
+                    <a href=""><img src="./assets/images/pinterest.png" alt=""></a>
+                    <a href=""><img src="./assets/images/twitter.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slidearea">
+                  <img class="section-team--avatar" src="./media/homem2.png" alt="" srcset="">
+                  <div class="section-team--name">Jane Doe</div>
+                  <div class="section-team--role">Master Mind</div>
+                  <div class="section-team--social">
+                    <a href=""><img src="./assets/images/facebook.png" alt="" srcset=""></a>
+                    <a href=""><img src="./assets/images/googleplus.png" alt=""></a>
+                    <a href=""><img src="./assets/images/linkedin.png" alt=""></a>
+                    <a href=""><img src="./assets/images/pinterest.png" alt=""></a>
+                    <a href=""><img src="./assets/images/twitter.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sliders-pointers">
+          <div class="pointer active"></div>
+          <div class="pointer"></div>
+          <div class="pointer"></div>
+        </div>
+      </div>
+    </section>
+    <section class="default light">
+      <div class="section-title">Happy Clients</div>
+      <div class="section-desc">Clients Reviews</div>
+      <div class="section-body">
+        <div class="section-clients">
+          <div class="sliders" style="margin-left: 0;">
+            <div class="slide">
+              <div class="slidearea">
+                <img class="section-client--avatar" src="./media/homem2.png" alt="" srcset="">
+                <div class="section-client--name">John  Doe</div>
+                <div class="section-client--role">Head of PR Departament</div>
+                <div class="section-client--deploy">
+                  <img src="./assets/images/quote.png" alt="" srcset="">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sliders-pointers">
+            <div class="pointer active"></div>
+            <div class="pointer"></div>
+            <div class="pointer"></div>
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+    <section class="default light icons">
+      <div class="section-icons">
+        <img src="./media/empresa1.png" alt="" srcset="">
+        <img src="./media/empresa2.png" alt="" srcset="">
+        <img src="./media/empresa3.png" alt="" srcset="">
+        <img src="./media/empresa4.png" alt="" srcset="">
+        <img src="./media/empresa5.png" alt="" srcset="">
+        <img src="./media/empresa6.png" alt="" srcset="">
+      </div>
+    </section>
+    <section class="default gray">
+      <div class="section-prices">
+        <div class="section-title">Price</div>
+        <div class="section-desc">Price Table</div>
+        <div class="section-body">
+          <div class="section-price">
+            <div class="section-price--card">
+              <div class="card-title">Express</div>
+              <div class="card-value">$ 9.99</div>
+              <div class="card-desc">/ Month</div>
+              <div class="card-body">
+                <p>
+                  Tracking Issues
+                  <span>-</span>
+                  Add bugs trough email
+                  <span>-</span>
+                  Notifications
+                  <span>-</span>
+                  Time Tracking
+                  <span>-</span>
+                  Custom views
+                </p>
+              </div>
+              <a href="#" class="card-button">Choose</a>
+            </div>
+            <div class="section-price--card">
+              <div class="card-title">Standart</div>
+              <div class="card-value">$ 14.99</div>
+              <div class="card-desc">/ Month</div>
+              <div class="card-body">
+                <p>
+                  Tracking Issues
+                  <span>-</span>
+                  Add bugs trough email
+                  <span>-</span>
+                  Notifications
+                  <span>-</span>
+                  Time Tracking
+                  <span>-</span>
+                  Custom views
+                </p>
+              </div>
+              <a href="#" class="card-button">Choose</a>
+            </div>
+            <div class="section-price--card">
+              <div class="card-title">Luxe</div>
+              <div class="card-value">$ 19.99</div>
+              <div class="card-desc">/ Month</div>
+              <div class="card-body">
+                <p>
+                  Tracking Issues
+                  <span>-</span>
+                  Add bugs trough email
+                  <span>-</span>
+                  Notifications
+                  <span>-</span>
+                  Time Tracking
+                  <span>-</span>
+                  Custom views
+                </p>
+              </div>
+              <a href="#" class="card-button">Choose</a>
+            </div>
+            <div class="section-price--card">
+              <div class="card-title">Premium</div>
+              <div class="card-value">$ 24.99</div>
+              <div class="card-desc">/ Month</div>
+              <div class="card-body">
+                <p>
+                  Tracking Issues
+                  <span>-</span>
+                  Add bugs trough email
+                  <span>-</span>
+                  Notifications
+                  <span>-</span>
+                  Time Tracking
+                  <span>-</span>
+                  Custom views
+                </p>
+              </div>
+              <a href="#" class="card-button active">Choose</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="default light">
+      <div class="section-title">Premium</div>
+      <div class="section-desc">Even more features available</div>
+      <div class="section-body">
+        <div class="section-premium">
+          <div class="sliders">
+            <div class="slide">
+              <div class="slidearea">
+                <div class="section-premium--left">
+                  <img src="./media/livros.png" alt="">
+                  </div>
+                  <div class="section-premium--right">
+                    <div class="premium-list">
+                      <div class="premium-list--desc">
+                        <img src="./assets/images/check.png" alt="">
+                        <div class="premium-list--text">
+                          <h5>First Feature</h5>
+                          <p>
+                            Paesent metusurna,feugiata placeratvel,elementumat leo.
+                            Quiosque velfermentumipsum. Nuila at facilisis est.
+                            <span>- FEATURE ONE</span>
+                            <span>- FEATURE TWO</span>
+                            <span>- FEATURE THREE</span>
+                          </p>
+                        </div>
+                      </div>
+                        
+                      <div class="premium-list--desc">
+                        <img src="./assets/images/check.png" alt="">
+                        <div class="premium-list--text">
+                          <h5>Second Feature</h5>
+                          <p>
+                            Paesent metusurna,feugiata placerat vel
+                          </p>
+                        </div>
+                        
+                      </div>
+                      <div class="premium-list--desc">
+                        <img src="./assets/images/check.png" alt="">
+                        <div class="premium-list--text">
+                          <h5>Third Feature</h5>
+                          <p>
+                            Paesent metusurna,feugiata placerat vel, elementumat leo.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sliders-pointers">
+            <div class="pointer active"></div>
+            <div class="pointer"></div>
+            <div class="pointer"></div>
+          </div>
+          <a href="#" class="button">Get in touch</a>
+        </div>
+        
+      </div>
+    </section>
+    <section class="default dark">
+      <div class="section-title">Some facts</div>
+      <div class="section-desc">About our work</div>
+      <div class="section-body">
+        <div class="section-facts">
+          <div class="section-fact">
+            <h4>1000</h4>
+            <div class="section-fact--traco"></div>
+            <h5>Design projects released</h5>
+            <p>Oaesent metus urna, feuglat a placeral elemenium at leo</p>
+          </div>
+          <div class="section-fact">
+            <h4>900</h4>
+            <div class="section-fact--traco"></div>
+            <h5>Photos</h5>
+            <p>Oaesent metus urna, feuglat a placeral elemenium at leo</p>
+          </div>
+          <div class="section-fact">
+            <h4>500</h4>
+            <div class="section-fact--traco"></div>
+            <h5>Marketing Ideas</h5>
+            <p>Oaesent metus urna, feuglat a placeral elemenium at leo</p>
+          </div>
+          <div class="section-fact">
+            <h4>100</h4>
+            <div class="section-fact--traco"></div>
+            <h5>Exhibitions</h5>
+            <p>Oaesent metus urna, feuglat a placeral elemenium at leo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-social">
+      <div class="section-social--legend">
+        <img src="./assets/images/share.png" alt="compartilhar">
+        <p>Tell about us</p>
+      </div>
+      <div class="section-social--item">
+        <div class="section-social--icon twitter">
+          <img src="./assets/images/twitter.png" alt="" srcset="">
+        </div>
+          <p>152</p>
+      </div>
+      <div class="section-social--item">
+        <div class="section-social--icon linkedin">
+          <img src="./assets/images/linkedin.png" alt="" srcset="">
+        </div>
+          <p>152</p>
+      </div>
+      <div class="section-social--item">
+        <div class="section-social--icon facebook">
+          <img src="./assets/images/facebook.png" alt="" srcset="">
+        </div>
+          <p>152</p>
+      </div>
+      <div class="section-social--item">
+        <div class="section-social--icon googleplus">
+          <img src="./assets/images/googleplus.png" alt="" srcset="">
+        </div>
+          <p>152</p>
+      </div>
+      <div class="section-social--item">
+        <div class="section-social--icon pinterest">
+          <img src="./assets/images/pinterest.png" alt="" srcset="">
+        </div>
+          <p>152</p>
+      </div>
+    </section>
+    <section class="default light">
+      <div class="section-title">Contact Us</div>
+      <div class="section-desc">Our Agency Located in Melbourne, Australia</div>
+      <div class="section-body">
+        <div class="section-contact">
+          <form method="post">
+            <div class="section-contact--split">
+              <input type="text" name="name" id="" placeholder="NAME">
+              <input type="text" name="e-mail" id="" placeholder="EMAIL">
+            </div>
+            <input type="text" name="subject" id="" placeholder="SUBJECT">
+            <textarea name="message" id="" cols="20" rows="5" placeholder="MESSAGE"></textarea>
+            <input type="submit" value="SEND MESSAGE" class="button">
+          </form>
+        </div>
+      </div>
+    
+    
+    
+    </section>
+    <section class="section-map">
+      <div class="section-map--area">
+        <div class="section-map--info">
+          <div class="section-map--info-item">
+            <div class="section-map--info-item-img">
+              <img src="./assets/images/carta.png" alt="">
+            </div>
+            PO Box 16122 Collins Street West Victoria 8007 Australia
+          </div>
+          <div class="section-map--info-item">
+            <div class="section-map--info-item-img">
+              <img src="./assets/images/localizacao.png" alt="">
+            </div>
+            121 King Steet, Melbourne Victor 300 Australia
+          </div>
+          <div class="section-map--info-item">
+            <div class="section-map--info-item-img">
+              <img src="./assets/images/telefone.png" alt="">
+            </div>
+            +00 0 1234 5678
+          </div>
+          <div class="section-map--info-item">
+            <div class="section-map--info-item-img">
+              <img src="./assets/images/arroba.png" alt="">
+            </div>
+            bulkindesign@gmail.com
+          </div>
+          <div class="section-map--info-item">
+            <div class="section-map--info-item-img">
+              <img src="./assets/images/web.png" alt="">
+            </div>
+            www.envato.com
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-area">
+      <div class="footer-item area1">
+        <div class="footer-social">
+          <a href=""><img src="./assets/images/twitter.png" alt="" srcset=""></a>
+          <a href=""><img src="./assets/images/linkedin.png" alt="" srcset=""></a>
+          <a href=""><img src="./assets/images/facebook.png" alt="" srcset=""></a>
+          <a href=""><img src="./assets/images/googleplus.png" alt="" srcset=""></a>
+          <a href=""><img src="./assets/images/pinterest.png" alt="" srcset=""></a>
+        </div>
+      </div>
+      <div class="footer-item area2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta aliquet risus, ac rhoncus sem aliquet ac. Donec tincidunt cursus elit vitae euismod.
+        </p>
+      </div>
+      <div class="footer-item area3">
+        <form action="">
+          <input type="email" name="email" id="" placeholder="EMAIL TO SUBSCRIBE">
+          <input type="submit" value="SUBSCRIBE" class="button">
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
