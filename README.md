@@ -6,7 +6,7 @@
 
 Projeto idealizado através do curso B7Web com o Professor Bonieky Lacerda.
 Uma landing page em HTML5 e CSS3 que fortaleci os conhecimentos:
-- Alinhamento com Flexbox e GRID.
+- Alinhamento com Flexbox.
 - Organização e estrutura do código.
 - Responsividade.
 
